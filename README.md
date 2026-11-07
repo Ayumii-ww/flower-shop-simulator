@@ -13,6 +13,28 @@ The code is structured using Object-oriented design with each major part of the 
 - Greenhouse - tracks inventory, depreciation, and restocking
 - main.py - user interaction, game flow, and overall simulation logic
 
+## Project Structure
+
+```
+flower-shop-simulator/
+├── flower_shop/
+│   ├── main.py          # entry point, runs the simulation
+│   ├── FlowerShop.py    # main controller class
+│   ├── Florist.py       # employee class
+│   ├── Bouquet.py       # bouquet types and recipes
+│   └── Greenhouse.py    # inventory and supply costs
+├── README.md
+└── .gitignore
+```
+
+## How to Run
+
+Requires Python 3 (no external packages needed). From the project root:
+
+```bash
+python3 flower_shop/main.py
+```
+
 ## Files and Class structure 
 
 ### main.py 
